@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reservas</title>
+    <link rel="stylesheet" href="subpages.css">
 </head>
 <body>
-    Reservas
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Faça sua Reserva</h1><br>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="checkin">Data de Check-in</label><br><br>
+                    <input type="date" id="checkin" name="checkin" required><br><br>
+                </div>
+                <div class="input-group">
+                    <label for="checkout">Data de Check-out</label><br><br>
+                    <input type="date" id="checkout" name="checkout" required><br><br>
+                </div>
+                <div class="input-group">
+                    <label for="room">Escolha o Quarto</label><br>
+                    <select id="room" name="room" required>
+                        <option value="standard">Casal</option>
+                        <option value="luxo">Solteiros</option>
+                        <option value="presidencial">Família</option>
+                    </select>
+                </div><br>
+                <button type="submit" class="btn">Reservar</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
