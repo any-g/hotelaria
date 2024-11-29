@@ -1,40 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Hotel Encantado</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul class="menu">
-		<li><a href="index.html">Home      </a></li>
-		<li><a href="sobre.html">Sobre</a></li>
-	  		<li><a href="cadastro.html">cadastro</a>
-			</li>
-		<li><a href="reservas.html">Reservas</a></li>
-		<li><a href="servicos.html">Serviços</a></li>
-        <li><a href="login.html">Login</a></li>
-</ul>
-</div>
-<div class="conteudo">
-    <div class="image">
-
+    <div class="menu">
+        <div class="logo"><b>Hotel Encantado</b></div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="#login">Login</a>
+        </nav>
     </div>
-    <div class="options">
-        <div>
-            opcao de qusrto 1
-        </div>
-        <div>
-            opcao 2
-        </div>
-        <div>
-            opcao 3
-        </div>
+    <div class="topo">
+    <header class="hero">
+        <h1>Hotel Encantado</h1>
+        <p>Conheça nossas opções de estadia</p>
+    </header>
     </div>
 
-</div>
+    <section class="content">
+        <!-- Carrossel -->
+        <div class="carrossel">
+            <div class="carrossel-images">
+                <img src="paisagem.jpeg" alt="Imagem 1">
+                <img src="paisagem2.jpg" alt="Imagem 2">
+                <img src="paisagem3.jpg" alt="Imagem 3">
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+        </div>
 
+        <div class="text">
+            <h4>Seja Bem-Vindo!</h4>
+            <p>Bem-vindo ao Hotel Encantado!
+            Oferecemos um ambiente acolhedor e confortável,<br>
+            perfeito para quem busca descanso e tranquilidade.
+            Com uma localização privilegiada<br>  e acomodações de
+            primeira classe, nosso hotel garante uma experiência
+            única e<br> inesquecível. 
+            Seja para uma estadia curta ou uma temporada prolongada,
+            estamos<br> prontos para proporcionar momentos especiais
+            e um atendimento impecável.<br>
+            Venha viver o encanto do nosso hotel e descubra o que <br>
+            temos a oferecer!</p>
+        </div>
+        <div class="quartos">
+            <div>
+                <img src="quarto1.jpeg" alt="Quarto 1">
+                <p>Quarto Casal</p>
+                <p>90R$ por noite</p>
+            </div>
+            <div>
+                <img src="quarto2.jpeg" alt="Quarto 2">
+                <p>Quarto Solteiros</p>
+                <p>100R$ por noite</p>
+            </div>
+
+            <div>
+                <img src="quarto3.jpg" alt="Quarto 3">
+                <p>Quarto Família</p>
+                <p>120$ por noite</p>
+            </div>
+        </div>
+        
+
+        <h3>Viaje mais, gaste menos!</h3>
+
+        <div class="ofert">
+            <h2>Faça o login e economize</h2>
+            <p>Economize 10% ou mais nas suas acomodações.</p>
+            <a href="login.html" class="btn">Login</a><br>
+            <a href="cadastro.html" class="btn">Cadastro</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Hotel Encantado. Todos os direitos reservados.</p>
+            <nav>
+                <a href="#sobre">Sobre Nós</a> | 
+                <a href="#contato">Contato</a> | 
+                <a href="#politica">Política de Privacidade</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
