@@ -14,7 +14,7 @@ h1, h2 {
 /* Menu */
 /* Menu */
 .menu {
-    background-color: #006aff;
+    background-color: #D6B574;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ h1, h2 {
 
 /* Menu */
 .menu {
-    background-color: #006aff;
+    background-color: #D6B574;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@ h1, h2 {
 }
 
 .menu a:hover {
-    background-color: #0226c7;
+    background-color: #c3a363;
 }
 
 /* Hero section */
@@ -103,12 +103,12 @@ h1, h2 {
 }
 
 .ofert h2 {
-    color: #006aff;
+    color: #D6B574;
 }
 
 /* Footer */
 footer {
-    background-color: #0454c3;
+    background-color: #bf9d59;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -142,4 +142,14 @@ footer nav a:hover {
     .hero {
         padding: 40px 20px;
     }
+}
+
+.logo img{
+    width: 110px;
+    height: 65px;
+}
+
+.logo{
+    width: 110px;
+    height: 65px;
 }
