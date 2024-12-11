@@ -8,7 +8,7 @@
 /* Configuração geral */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #006aff, #0226c7);
+    background: linear-gradient(to right, #bf9d59, #D6B574);
     color: #fff;
     height: 100vh;
     display: flex;
@@ -73,12 +73,12 @@ body {
 }
 
 .input-group input:focus {
-    border-color: #006aff;
+    border-color: #bf9d59;
 }
 
 /* Botão */
 .btn {
-    background-color: #006aff;
+    background-color: #D6B574;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0226c7;
+    background-color: #bf9d59;
 }
 
 /* Links */
@@ -100,12 +100,12 @@ body {
 }
 
 .links a {
-    color: #006aff;
+    color: #bf9d59;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .links a:hover {
-    color: #0226c7;
+    color: #D6B574;
 }
