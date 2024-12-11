@@ -1,0 +1,160 @@
+/* Geral */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+/* Menu */
+.menu {
+    background-color: #D6B574;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #D6B574;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    background-color: #D6B574;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c3a363;
+}
+
+/* Footer */
+footer {
+    background-color: #bf9d59;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+/* Logomarca */
+.logo{
+    width: 110px;
+    height: 65px; 
+}
+
+.logo img{
+    width: 110px;
+    height: 65px;
+}
+
+/* Contêiner das imagens */
+.imagem-meio {
+    display: flex; /* Alinha as imagens lado a lado */
+    justify-content: space-between; /* Garante que as imagens fiquem igualmente distribuídas */
+    gap: 1px; /* Espaçamento entre as imagens */
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+.imagem-item {
+    flex: 1; /* Cada item (imagem + descrição) vai ocupar o mesmo espaço */
+    text-align: center; /* Centraliza o texto da descrição abaixo da imagem */
+}
+
+.imagem-item img {
+    width: 80%; /* Faz as imagens ocuparem toda a largura disponível */
+    height: auto; /* Mantém a proporção original das imagens */
+    border-radius: 10px; /* Borda arredondada nas imagens */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar as imagens */
+}
+
+.imagem-item p {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e a descrição */
+    color: #333; /* Cor do texto */
+    font-size: 1rem; /* Tamanho do texto */
+}
+
+/* Imagens do hotel e quartos */
+.imagem img{
+    width: 100%;
+    height: 470px;
+}
+
+.conteudo {
+    display: flex; /* Alinha as imagens lado a lado */
+    justify-content: center; /* Centraliza os cards */
+    gap: 100px; /* Diminui o espaço entre as imagens */
+    padding: 20px;
+}
+
+.quartos {
+    background-color: white; /* Cor do fundo do card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Largura fixa */
+    width: 300px; /* Garante que o elemento não ultrapasse as bordas */
+    text-align: center; /* Centraliza o texto */
+}
+
+.quartos div {
+    flex: 1; /* Faz com que cada div ocupe o mesmo tamanho disponível */
+    max-width: 25%; /* Limita a largura das divs para não exceder 3 imagens */
+    position: relative; /* Necessário para aplicar a sombra corretamente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumentei a sombra para um efeito mais forte */
+    border-radius: 12px; /* Borda mais arredondada */
+    overflow: hidden; /* Para garantir que as bordas arredondadas funcionem corretamente */
+}
+
+.quartos img {
+    width: 100%; /* Faz a imagem ocupar toda a largura da div */
+    height: 200px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Faz a imagem cobrir o espaço sem distorção (pode cortar) */
+}
+
+.quartos p {
+    padding-left: 45px; /* Ajuste na propriedade de cor */
+}
