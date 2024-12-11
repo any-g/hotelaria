@@ -8,7 +8,7 @@
 /* Configuração geral */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #006aff, #0226c7);
+    background: linear-gradient(to right, #D6B574, #c3a363);
     color: #fff;
     height: 100vh;
     display: flex;
@@ -73,12 +73,12 @@ body {
 }
 
 .input-group input:focus, .input-group select:focus {
-    border-color: #006aff;
+    border-color: #D6B574;
 }
 
 /* Botão */
 .btn {
-    background-color: #006aff;
+    background-color: #D6B574;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0226c7;
+    background-color: #c3a363;
 }
 
 /* Estilo para serviços */
